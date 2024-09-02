@@ -96,7 +96,7 @@ st.dataframe(customer_data.head())
 # Visualize Clusters
 st.subheader("Cluster Distribution")
 fig, ax = plt.subplots()
-sns.countplot(x='Cluster', data=customer_data, palette=['#0f9d58', '#ffffff', '#0a0a0a'])
+sns.countplot(x='Cluster', data=customer_data, palette=['#0f9d58', '0000FF', '#0a0a0a'])
 plt.title('Number of Customers in Each Cluster')
 plt.xlabel('Cluster')
 plt.ylabel('Number of Customers')
